@@ -46,25 +46,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11154}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11346}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11354}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11738}
     - Class: 114
-      Script: {instanceID: 12584}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13246}
+      Script: {instanceID: 12970}
     - Class: 114
-      Script: {instanceID: 13868}
+      Script: {instanceID: 13258}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -280,6 +280,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: a66536577d0b6f9e5f7f8c9f8b8d791e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WebGLNativeInputField
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -514,12 +520,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: a66536577d0b6f9e5f7f8c9f8b8d791e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: WebGLNativeInputField
   platform: 20
   scenePathNames:
   - "Assets/Scenes/\u7DF4\u7FD2\u5834\u666F.unity"

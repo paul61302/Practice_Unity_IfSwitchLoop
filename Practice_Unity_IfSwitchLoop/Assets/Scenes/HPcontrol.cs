@@ -33,12 +33,12 @@ public class HPcontrol : MonoBehaviour
 
     private void CreatFloor(int length)
     {
-        for (int j = 0; j <= length; j++)
+        for (int j = 0; j < length; j++)
         {
-            for (int i = 0; i < j; i++)
+            for (int i = 0; i < (j+1); i++)
             {
 
-                Instantiate(Cube, new Vector3(-9 + (j * 2), -5, (i * 2)), Quaternion.Euler(270, 0, 0));
+                Instantiate(Cube, new Vector3(-9f + (j * 2), -8.8f+ (i * 2), 9.6f), Quaternion.Euler(270, 0, 0));
 
 
             }
