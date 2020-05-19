@@ -237,9 +237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3dff55e27c74b46a9c531dec41b90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aaaaa: {fileID: 0}
-  State: {fileID: 2028814733}
-  _hp: 0
 --- !u!114 &42533709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +996,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1698624947}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 1baf2d951ff900345adc27ac6377dd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -1031,7 +1028,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1698624950}
   m_TextComponent: {fileID: 1339948520}
-  m_Placeholder: {fileID: 1436096407}
+  m_Placeholder: {fileID: 0}
   m_ContentType: 0
   m_InputType: 0
   m_AsteriskChar: 42
@@ -1053,6 +1050,10 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
+  m_DialogTitle: 123
+  m_DialogOkBtn: OK
+  m_DialogCancelBtn: Cancel
+  m_DialogType: 1
 --- !u!114 &1698624950
 MonoBehaviour:
   m_ObjectHideFlags: 0

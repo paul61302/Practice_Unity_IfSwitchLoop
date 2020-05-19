@@ -10,11 +10,16 @@ public class HPcontrol : MonoBehaviour
     public float Hp { get => _hp; set => _hp = value; }
 
 
+    [Header("滑桿")]
     public Slider Slidervalue;
+    [Header("滑桿結果")]
     public Text State;
+
+
     public Text HpMpRecover;
     public InputField Recover;
     public string useItem;
+
     public Text HpNumber;
     public float hpNum;
 
@@ -60,10 +65,13 @@ public class HPcontrol : MonoBehaviour
         }
         #endregion
 
+        #region 將滑桿以數字表示
         hpNum = Slidervalue.value;
         int intHpNum = System.Convert.ToInt32(hpNum);
         string strHpNum = System.Convert.ToString(intHpNum);
         HpNumber.text = strHpNum ;
+        #endregion
+
         useItem = (Recover.text == "紅水") ? HpMpRecover.text = "<color=#FF0000>恢復血量</color>" : (Recover.text == "藍水") ? HpMpRecover.text = "<color=#0000FF>恢復魔力</color>" : HpMpRecover.text = "你吃了三小?";
 
     }

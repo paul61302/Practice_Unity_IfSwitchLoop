@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - HPcontrol
+    - WebGLNativeInputField
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -14,7 +15,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
@@ -50,13 +50,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11308}
     - Class: 114
-      Script: {instanceID: 11350}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11352}
     - Class: 114
-      Script: {instanceID: 11792}
-    - Class: 114
-      Script: {instanceID: 12296}
+      Script: {instanceID: 11734}
     - Class: 114
       Script: {instanceID: 12584}
     - Class: 114
@@ -64,7 +62,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12962}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 13246}
+    - Class: 114
+      Script: {instanceID: 13868}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -154,6 +154,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TextureOffset
+  - hash:
+      serializedVersion: 2
+      Hash: dfe0aa64f3553ddbee89020671760033
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HPcontrol
   - hash:
       serializedVersion: 2
       Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
@@ -510,10 +516,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: dfe0aa64f3553ddbee89020671760033
+      Hash: a66536577d0b6f9e5f7f8c9f8b8d791e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: HPcontrol
+    className: WebGLNativeInputField
   platform: 20
   scenePathNames:
   - "Assets/Scenes/\u7DF4\u7FD2\u5834\u666F.unity"
